@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
+import Landing from './Landing';
 
 const AdminView = props => {
 	return (
 		<>
-			<h2>Main View</h2>
-			<Link to='/auth'>Auth View</Link>
+			<Landing />
 		</>
 	);
 };

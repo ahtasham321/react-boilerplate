@@ -1,9 +1,9 @@
 const Main = props => {
 	return (
 		<>
-			<header>Main Header</header>
+			{/* <header>Main Header</header> */}
 			{props.children}
-			<footer>Main Footer</footer>
+			{/* <footer>Main Footer</footer> */}
 		</>
 	);
 };
